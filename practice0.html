@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>hello</h1>
+
+    <button id="demo">Prompt</button>
+    <!-- <button id="result">Result</button> -->
+
+    <script>
+        console.log("working")
+
+        
+        document.addEventListener("click",function(){
+            let demo=document.getElementById("demo").value
+            let a=prompt("Mention ur name").value
+            console.log(a)
+            document.getElementById("demo").value=demo
+        })
+
+        // document.addEventListener("click",function(){
+        //     document.getElementById("result").value
+        //     let demo=prompt("Mention ur name").value
+        //     console.log(demo)
+        //     document.getElementById("result").value=demo
+        // })
+    </script>
+
+</body>
+</html>
