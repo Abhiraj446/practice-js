@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello World</h1>
+    <p id="web">Web Development</p>
+
+    <button id="show">Hit Me</button>
+
+    <script>
+        console.log("working")
+
+        let show=document.getElementById("show")
+        document.addEventListener("mousedown",function(){
+            let web=document.getElementById("web")
+            web.style.backgroundColor="black"
+            web.style.color="white"
+            web.style.width="50%"
+            web.style.height="50px"
+            web.style.fontSize="50px"
+        })
+        document.addEventListener("mouseout",()=>{
+            let web=document.getElementById("web")
+            web.style.backgroundColor=""
+            web.style.color=""
+            web.style.fontSize=""
+        })
+        //     addEventListener("contextmenu",(e)=>{
+        //         e.preventDefault();
+        //     })
+            
+        
+    </script>
+
+</body>
+</html>

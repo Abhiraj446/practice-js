@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello core1</h1>
+
+    <button id="btn">click</button>
+    <script>
+
+        // function show(){
+        // let age=prompt('How old are you');
+        // let name=prompt('Mention your name')
+        // let address=prompt("Mention your address")
+
+        // if(age<0 || age==0 ||age==null){
+        //     alert("Invalid try again")
+        // }
+        // else if(age>110){
+        //     alert("You are too old")
+        // }
+        // else{
+        //     document.write("<h1 style=color:red>"+"Welcome Mr."+" "+name+" "+"your age is"+" "+age+" "+"and u r from"+" "+address+ "</h1>")
+        // }
+        // }
+        // show()
+
+
+        // let age=show(5,8)
+        // function show(a,b){
+        //     return(a+b)
+        // }
+        // let age=show(5,8)
+        // console.log(age)
+
+        // // let s=don(4,5,8)
+        // let don=function(c,d,e){
+        //     return(c*d-d+e)
+        // }
+        // // let s=don(4,5,8)
+        // console.log(s)
+
+        // pge=page(1,5)
+        // let page=(x,y)=>{
+        //     return(x-y)
+        // }
+        // // pge=page(1,5)
+        // console.log(pge)
+
+        // console.log(a)
+        // var a="abhi"
+
+
+        // let a={
+        //     name:"f",
+        //     age:14,
+        //     add:{
+        //         city:"sre",
+        //     },
+            // show(){
+            //     console.log(this.name+" "+this.age)
+            // }
+        // }
+        // console.log(a.add.city)
+        // a.show()
+        // for(const key in a.add){
+        //     document.write(`${key}:${a.add[key]}`+"<br>")
+        // }
+
+        // let txt=""
+        // for(let i in a){
+        //     txt+=a[i]+" "
+        // }
+        // console.log(txt)
+
+        // for(let i in a){
+        //     console.log(a[i])
+        // }
+
+        // let b="sjnz"
+        // for(let x of b){
+        //     console.log(x)
+        // }
+
+        // let a=[4,5,2,1]
+        // let newarr=[]
+        // a.forEach(function(x){
+        //     newarr.push (x+10)
+        //     console.log(newarr)
+        // })
+
+        // for(let i=0;i<5;i++)
+        // console.log(i)
+
+        // let i=1;
+        // do{
+        //     console.log(i)
+        //     i++
+        // }while(i<=5)
+
+
+        //String Method
+
+        // let a="Hello World"
+        // let b=45;
+        // let c="lalala"
+        // console.log(a.indexOf("e"))
+        // console.log(a.toUpperCase())
+        // console.log(a.toLowerCase())
+        // console.log(a.charAt())
+        // console.log(a.trim())
+        // console.log(b.toString())
+        // console.log(a.concat(c))
+        // console.log(a.slice(0,7))
+        // console.log(a.substr(0,7))
+        // console.log(a.substring(1,7))
+        // console.log(a.replace("Hello","buflo"))
+        // console.log(a.search("o"))
+        // console.log(a.split())
+
+        //Array method
+
+        // let a=[4,8,7,3,"hello"]
+        // let b="kdm"
+        // a.push(45)
+        // console.log(a)
+        // a.pop()
+        // console.log(a)
+        // a.unshift(45)
+        // console.log(a)
+        // delete a[2]
+        // console.log(a)
+        // a.splice(0,4)
+        // console.log(a)
+
+        // a.reverse()
+        // console.log(a)
+        // console.log(a.concat(b))
+        // a.copyWithin(0,2)
+        // console.log(a)
+        // a.fill("hh")
+        // console.log(a)
+
+
+        //Maths function
+        // console.log(Math.round(4.4))
+        // console.log(Math.pow(2,3))
+        // console.log(Math.sqrt(45))
+        // console.log(Math.abs(-45))
+        // console.log(Math.ceil(4.0000001))
+        // console.log(Math.floor(45.54654))
+        // console.log(Math.floor(Math.random()*10+1))
+
+        // let c=Math.PI
+        // console.log(c.toFixed(2))
+        // console.log(c.toPrecision(5))
+
+        // let d="3 months"
+        // console.log(parseInt(d))
+
+        // let d="4.5 days"
+        // console.log(parseFloat(d))
+
+        // let a=new Date()
+        // console.log(a.getHours())
+
+        // let a=5;
+        // --a;
+        // console.log(a)
+            
+        //let j=5;
+        // let k='5';
+        // if(j!==k){
+        // console.log("true")
+         // }
+        // else{
+        //console.log("false")
+        // }
+
+        // let a=5
+        // let b=a>3?true:false
+        // console.log(b)
+
+        // let btn=document.getElementById("btn")
+        // document.addEventListener("mousemove",()=>{
+        //     let h1=document.createElement("h1");
+        //     h1.innerHTML="abhiraj"
+        //     document.body.prepend(h1)
+        // })
+
+        // addEventListener("contextmenu",(e)=>{
+        //     e.preventDefault()
+        // })
+
+        // let arr=[5,6,8,9,7]
+        // let re=arr.filter(abc=(a)=>{
+        //         return a>5
+        // })
+        // console.log(re)
+
+        // let arr=[45,12,47,32]
+        // let b=arr.forEach((x)=>{
+        //     console.log(x+10)
+        // })
+        // console.log(b)
+
+        // let arr=[5,2,8,7,3]
+        // let b=arr.map((y)=>{
+        //     return y+10
+        // })
+        // console.log(b)
+
+
+        // let person={
+        //     fname:"abhi",
+        //     lname:"raj"
+        // }
+        // let neww=person.map((x)=>{
+        //     return[x.fname,x.lname].join("")
+        // })
+        // console.log(neww)
+
+        let person=[
+            {fname:"abhi" , lname:"raj"}
+        ]
+        let newss=person.map((item)=>{
+            return [item.fname,item.lname].join("")
+        })
+        console.log(newss)
+
+
+
+
+
+        
+
+
+
+        
+    </script>
+
+</body>
+</html>
